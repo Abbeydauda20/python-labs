@@ -8,21 +8,23 @@ calling function inside another function
 
 # def add_and_sub(x: int, y:int):
 #     return x+y, x-y
-#
+
 # x = 10
 # y = 20
 # a, b = add_and_sub(x,y)
+# y =    add_and_sub(x,y)
 # print(a)
 # print(b)
+# print(y)
 # print(type(a))
 # print(type(b))
 #
 # def add(x: int, y: int):
 #     return x+y
-#
+
 # def sub(x: int, y: int):
 #     return x-y
-# #
+# # #
 # def add_and_sub(x: int, y:int):
 #     a = add(x,y)
 #     b = sub(x,y)
@@ -49,18 +51,18 @@ calling function inside another function
 
 # Factorial using Loops
 # function definition
-# def fact(x: int):
-#     output = 1
-#     if x == 1:
-#         return output
-#     while(x>1):
-#         output = output*x
-#         x = x -1
-#     return output
+def fact(x: int):
+    output = 1
+    if x == 1:
+        return output
+    while(x>1):
+        output = output*x
+        x = x -1
+    return output
 
 # function call
-# y = fact(7)
-# print(y)
+y = fact(7)
+print(y)
 
 
 # recursion
