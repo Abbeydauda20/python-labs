@@ -10,11 +10,11 @@ you can write a lambda function and pass in the values
 # output = add(10,20)
 # print(output)
 
-add = lambda x, y: x + y
-print(add(10,20))
+# add = lambda x, y: x + y
+# print(add(10,20))
 
-output = lambda x, y: x-y
-print(output(20,10))
+# output = lambda x, y: x-y
+# print(output(20,10))
 
-output = lambda x, y: x/y
-print(output(20,10))
+# output = lambda x, y: x/y
+# print(output(20,10))

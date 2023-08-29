@@ -3,14 +3,14 @@
 # a = fact(10)
 # print(a)
 
-from math import pi
+# from math import pi
 
-print(pi)
+# print(pi)
 
-from math import *
+# from math import *
 
-print(pi)
+# print(pi)
 
-import math as m
+# import math as m
 
-print(m.pi)
+# print(m.pi)
