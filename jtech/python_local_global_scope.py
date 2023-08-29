@@ -3,7 +3,7 @@ Scope of variables
 
 1. Local Variables - if we define any variables inside a function those are local variables and we can only access them inside the function
 2. Global Variables - we can define global variables outside the function that can be accessed inside the function but the preference
-will be to local variables first if found
+will be to local variables first if found.
 """
 
 # fuction definition
