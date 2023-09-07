@@ -14,6 +14,17 @@ except:
 # output = a/b
 # print(output)
 
+
+# a =5
+# b = "test"
+
+# try:
+#   output = a/b
+#   print(output)
+
+# except:
+#   print(" value of b can't be string")
+
 # a = 7
 # b = "test"
 # try:
@@ -24,7 +35,7 @@ except:
 
 
 # index = 3
-# denom = 0
+# denom = 2
 # even_numbers = [2,4,6,8]
 # item_at_index = even_numbers[index]
 # print(item_at_index)
@@ -32,9 +43,9 @@ except:
 
 
 # try:
-#     index = 3
-#     denom = "test"
-#     even_numbers = [2, 4, 6, 8]
+#     index = 4
+#     denom = 2
+#     even_numbers = [2, 4, 6, 8, 10]
 #     item_at_index = even_numbers[index]
 #     print(item_at_index)
 #     print(item_at_index / denom)

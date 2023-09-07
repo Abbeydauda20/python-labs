@@ -35,10 +35,10 @@ File Operations - read / writing
 # with open("testing1.txt", "a") as file1:
 #     file1.write("We are writing now in append mode\n")
 
-# write mode
+#write mode This will overite everything in the file"
 # with open("testing1.txt", "w") as file1:
 #     file1.write("We are writing now in write mode")
 
-# create mode
+# create mode, this will create a file and write on it assuming the file does not exist before
 # with open("testing1.txt", "x") as file1:
 #     file1.write("We are writing now in write mode")

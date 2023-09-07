@@ -51,18 +51,18 @@ calling function inside another function
 
 # Factorial using Loops
 # function definition
-def fact(x: int):
-    output = 1
-    if x == 1:
-        return output
-    while(x>1):
-        output = output*x
-        x = x -1
-    return output
+# def fact(x: int):
+#     output = 1
+#     if x == 1:
+#         return output
+#     while(x>1):
+#         output = output*x
+#         x = x -1
+#     return output
 
-# function call
-y = fact(7)
-print(y)
+# # function call
+# y = fact(7)
+# print(y)
 
 
 # recursion
