@@ -2,10 +2,11 @@
 # For loop, when the iteration completes, for loop ends
 # Vaccines = ["Moderna", "Pfizer", "Sputnik", "Covaxin", "AstraZeneca"]
 # for vac in Vaccines:
-    # print("")
-    # print("I will like to take a shot of ")
-    # for i in vac:
-    #     print(i)
+#     print("I will like to take a shot of ")
+#     print(vac)
+    
+# for i in Vaccines:
+#       print(i)
 
 # # While loop with Nested, here the multiplication will take place at interval of 2 seconds d=given below
 # x = 2
@@ -14,4 +15,4 @@
 #     print("looping")
 #     import time
 #     x *= 2
-#     time.sleep(3)
+#     time.sleep(2)

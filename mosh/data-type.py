@@ -10,8 +10,9 @@
 # float1 = 2.0
 #
 # # List / collection of variables, enclosed in square brackets
-# first_list = ["str1", "str2", "Devops", 47, "num1", 1.5]
-# print(first_list)
+first_list = ["str1", "str2", "Devops", 47, "num1", 1.5]
+print(first_list)
+# print(len(first_list))
 # print(type(first_list))
 
 #

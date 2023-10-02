@@ -4,20 +4,19 @@
 
 
 # For loops
-'''''
-PLANET = "Earth"
-for i in PLANET:
-    print(i)
 
-print("Rest of the code.")
-'''''
+# PLANET = "Earth"
+# for i in PLANET:
+#     print(i)
+
+# print("Rest of the code. " )
 
 # PLANETS = ["Jupiter", "Mass", "Earth", "Saturn", "Uranus"]
-# for GALAXY in PLANETS:
-#     print(GALAXY)
+# for i in PLANETS:
+#     print(i)
 # print("Rest of the code.")
 #
-# # use of range() to define a range of values
+# use of range() to define a range of values
 # values = range(4)
 # # iterate from i = 0 to i = 3
 # for i in values:
@@ -26,7 +25,7 @@ print("Rest of the code.")
 # # for loop With Tuple
 # Vaccines = ("Moderna", "Pfizer", "Sputnik", "Covaxin", "AstraZeneca")
 # for immunization in Vaccines:
-#     print(f"This {immunization} provides protection against covid19")
+#     print(f"This {immunization} provides protection against covid19 infection")
 
 # # for loop With list
 # Vaccines = ["Moderna", "Pfizer", "Sputnik", "Covaxin", "AstraZeneca"]
@@ -53,5 +52,5 @@ print("Rest of the code.")
 
 
 # numbers = list(range(20))
-# print(numbers[2:8])
+# print(numbers[2:10])
 

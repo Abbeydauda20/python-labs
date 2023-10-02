@@ -7,9 +7,9 @@ boto3 is a python package that aws has provided to interact with AWS services
 # shared_secret = os.getenv("SHARED_SECRET")
 # s3_client = boto3.client('s3',access_key,shared_secret)
 # print(a)
-import json
+# import json
 
-import boto3
+# import boto3
 
 # # create a s3 client
 # s3_client = boto3.client('s3')

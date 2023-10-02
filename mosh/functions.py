@@ -21,10 +21,10 @@
 # print(increment(number=2, by=1))
 # print(increment(number=5, by=5))
 
-# def increment(number, by=1):
-#     return number + by
-# print(increment(2, 5))
-# print(increment(5, 5))
+def increment(number, by):
+    return number + by
+print(increment(2, 5))
+print(increment(5, 5))
 
 # def increment(number, by=1):
 #     return number + by
@@ -54,8 +54,6 @@ Fourth iteration: total *= 5, total = 48 * 5 = 240
 '''
 
 # using multiple asterisk python can package multiple values for us
-
-
 # def save_user(**user):
 #     print(user["age"])
 # save_user(id=2, name="John", age=22)
@@ -65,8 +63,11 @@ Fourth iteration: total *= 5, total = 48 * 5 = 240
 
 
 # def greet(name):
-#    message = "b"
+#     message1 = "b"
 
 
 # greet("Mosh")
 # print(message)
+
+
+

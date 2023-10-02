@@ -11,13 +11,18 @@ boto3 is a python package that aws has provided to interact with AWS services
 
 import boto3
 
-# create a s3 client
+#create a s3 client
 s3_client = boto3.client('s3')
 
-# list buckets
-# response = s3_client.list_buckets()
+#list buckets
+#response = s3_client.list_buckets()
 # for item in response['Buckets']:
 #     print(item['Name'])
+
+response = s3_client.list_buckets()
+print(response["Buckets"])
+print(type(response["Buckets"]))
+
 
 
 # create buckets -- not recommended to create resources using boto3 but we will explore the option
@@ -46,12 +51,15 @@ s3_client = boto3.client('s3')
 # generating some data in our code and we want to write that data to s3 - uploading object
 
 
-A = s3_client.list_buckets()
-print(A)
-print(type(A))
+# A = s3_client.list_buckets()
+# print(A)
+# print(type(A))
+
+s3_client = boto3.client("s3")
 
 
 
 
+import boto3
 
 

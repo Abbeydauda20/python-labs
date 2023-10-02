@@ -1,9 +1,10 @@
 # First = "Abbey"
 # Last = "Dauda"
-# Full = (f"{len(First)} {len(Last)}")
+# Full = (f"My name is {First} {Last}")
+# # Full = (f"{len(First)} {len(Last)}")
 # print(Full)
 
-# COURSE = "python programming"
+COURSE = "python programming"
 # print(len(COURSE))
 # print(COURSE.isupper())
 # print(COURSE.islower())

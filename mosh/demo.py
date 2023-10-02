@@ -3,7 +3,9 @@
 
 # print(course.capitalize())
 
-# print(course.find("B"))
+# print(course.upper())
+
+# print(course.find("b"))
 
 # print(course.replace("beginners", "Absolute Beginner"))
 
@@ -36,11 +38,10 @@
 # print("Have a nice day")
 
 
-# is_hot = False
-# if is_hot:
+# IS_HOT = False
+# if IS_HOT:
 #     print("Hot day")
-#     print("drink
-#      plenty of Water")
+#     print("drink plenty of Water")
 #     print("have a nice day")
 # else:
 #     print("its a cold day")
@@ -48,13 +49,13 @@
 #     print("have a beautiful day")
 
 
-# is_hot = False
-# is_cold = False
-# if is_hot:
+# IS_HOT = False
+# IS_COLD = False
+# if IS_HOT:
 #     print("Hot day")
 #     print("drink plenty of Water")
 #     print("have a nice day")
-# elif is_cold:
+# elif IS_COLD:
 #     print("its a cold day")
 #     print("wear warm clothing")
 #     print("have a beautiful day")
@@ -64,10 +65,10 @@
 
 ############################################
 # price = 1000
-# good_credit = False
+# good_credit = True
 
 # if good_credit:
-#     print(price*0.5)
+#     print(price*0.95)
 
 # else:
 #     print(price)

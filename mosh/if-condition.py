@@ -3,7 +3,7 @@
 ############################
 # If/Else condition
 
-# x = 31
+x = 31
 # if x < 30:
 #     print("inside of the if block")
 #     print("x is less than 30")
@@ -14,8 +14,8 @@
 
 
 #################################
-# If/Elif/Else
-# x = 35
+#If/Elif/Else
+# x = 50
 # if x > 40:
 #     print("x is greater than 40")
 # elif x == 40:
@@ -24,31 +24,42 @@
 #     print("x is less than 40")
 
 
-# temp = 30
-# if temp > 30:
-#     print('its war')
+# temp = 40
+# if temp >= 40:
+#     print('its warm')
 #     print("drink cold water")
 # print("Done")
 
-# age = 18
+# age = 20
 # if age > 18:
-#     print("Eligibl")
+#     print("Eligible")
 # elif age < 18:
 #     print("Not Eligible")
 # else:
 #     print("undetermined")
 
 
-# AGE = 22
+
+# AGE = 16
 # MESSAGE = "Eligible" if AGE >= 18 else "Ineligible"
 # print(MESSAGE)
 
 
-# HIGH_INCOME = False
+# HIGH_INCOME = True
 # GOOD_CREDIT = True
-# STUDENT = True
+# NOT_STUDENT = True
 
-# if HIGH_INCOME and GOOD_CREDIT and not STUDENT:
+# if HIGH_INCOME and GOOD_CREDIT and NOT_STUDENT:
+#     print('Eligible')
+# else:
+#     print('Ineligible')
+    
+    
+# HIGH_INCOME = False
+# GOOD_CREDIT = False
+# STUDENT = False
+
+# if HIGH_INCOME or GOOD_CREDIT or STUDENT:
 #     print('Eligible')
 # else:
 #     print('Ineligible')
@@ -65,11 +76,11 @@
 
 ## Chaining Comparison Operators:
 
-# Age = 22
+Age = 22
 #if Age >= 18 and Age <= 65:
     #or
-# if 18 <= Age <= 65:
-#     print("eligible")
+#if 18 <= Age <= 65:
+#      print("eligible")
 
 
 # Iteration over s statement
@@ -80,7 +91,7 @@
 #     print("Attempt", number)
     
 # for number in range(3):
-#     print("Attempt", number +1)
+#     print("Attempt", number +2)
 
 # for number in range(3):
 #     print("Attempt", (number +1)* "!")
@@ -88,7 +99,7 @@
 
 ####################################################
 # is_hot = False
-# is_cold = False
+# is_cold = True
 # if is_hot:
 #     print("hot day please drink lots of water")
 # elif is_cold:

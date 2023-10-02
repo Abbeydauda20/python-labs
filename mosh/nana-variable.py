@@ -1,12 +1,12 @@
 # To find the number of minutes in 20 day
-#print(20 * 24 * 60)
+print(20 * 24 * 60)
 # To add a descriptive analysis to the above so that other project members can understand
-"""'''''''
-print("20 days are " + str(28800) + " minutes")
-print(f"20 days are {28800} minutes")
-print(f"20 days are {20*24*60} minutes")
-print(f"20 days are {20*24*60*60} seconds")
-''''''"""
+
+# print("20 days are " + str(28800) + " minutes")
+# print(f"20 days are {28800} minutes")
+# print(f"20 days are {20*24*60} minutes")
+# print(f"20 days are {20*24*60*60} seconds")
+
 
 # #We can use variables to represent those numbers that are constant above to avoid repetition
 # calculation_to_unit = 24 * 60 * 60
@@ -36,11 +36,13 @@ print(f"20 days are {20*24*60*60} seconds")
 # name_of_unit = "hours"
 #
 #
-# def days_to_units(num_of_days):
-#     print(f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}")
+#def days_to_units(num_of_days):
+    #print(f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}")
+    # Alternatively
+    #print(f"There are {num_of_days * calculation_to_units} {name_of_unit} in {num_of_days} days")
 #
 # # Enter the required numbers of days in the units below
-# days_to_units(20)
+#days_to_units(20)
 # days_to_units(35)
 # days_to_units(50)
 # days_to_units(110)
